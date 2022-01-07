@@ -1,0 +1,218 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.main {
+  background: url(https://bashooka.com/wp-content/uploads/2018/04/scg-canvas-background-animation-5.jpg);
+  background-size: contain;
+}
+.footer {
+  background: url(https://bashooka.com/wp-content/uploads/2018/04/scg-canvas-background-animation-5.jpg);
+  background-size: cover;
+  color: #fff;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper {
+  margin: auto;
+  display: block;
+}
+.container {
+  max-width: 1366px;
+  margin: auto;
+}
+.slide {
+  display: flex;
+  color: #fff;
+}
+.slide_leftul {
+  width: 50%;
+  padding: 2%;
+  float: left;
+}
+.slide_leftul img {
+  width: 100%;
+}
+.slide_rightul {
+  width: 50%;
+  padding: 2%;
+  float: left;
+}
+
+.slide_right h1 {
+  font-size: 3em;
+  text-align: left;
+  color: #fff;
+}
+.slide_right p {
+  font-size: 1em;
+  text-align: left;
+}
+.slide_right .btn-slide {
+  font-size: 2em;
+  text-align: left;
+  border: 1px solid #fff;
+  padding: 1% 3%;
+  border-radius: 5px;
+  width: max-content;
+}
+.items {display: inline-block;}
+.items ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
+.items ul li{
+  width: 30%;
+  text-align: left;
+}
+.item img {
+  width: 100%;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+.item p {
+  display: inline-block;
+  font-size: 0.8em;
+  text-align: left;
+}
+.item h3 {
+  display: inline-block;
+  padding: 1% 0;
+  font-size: 1em;
+  text-align: left;
+  margin: 1% 0;
+}
+.content {
+  position: relative;
+}
+.itemlastnew {
+  display: flex;
+  margin: 2% 0;
+}
+.itemlastnew img {
+  float: left;
+  width: 30%;
+}
+.itemlastnew h3 {
+  font-size: 1em;
+  width: 100%;
+  text-align: left;
+}
+.itemlastnew p {
+  font-size: 0.8em;
+  width: 100%;
+  text-align: left;
+}
+.lastnew {
+  display: inline-block;
+}
+.titlelastnew {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+}
+.titlelastnew p::before {
+  content: "";
+  width: 46%;
+  border-bottom: 1px solid #333;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.titlelastnew p::after {
+  content: "";
+  width: 46%;
+  border-bottom: 1px solid #333;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.titlelastnew p {
+  padding: 1%;
+  width: max-content;
+  background: #fff;
+  margin: auto;
+}
+.conten-item {
+  display: inline-block;
+}
+.footer {
+  padding: 2% 0;
+}
+.footer .left {
+  float: left;
+}
+.footer .right {
+  float: right;
+}
+.ant-menu-horizontal {
+  background: none !important;
+  color: #fff !important;
+  border-bottom: none !important;
+}
+.header {
+  background: url(https://bashooka.com/wp-content/uploads/2018/04/scg-canvas-background-animation-5.jpg);
+  background-position-y: -71%;
+}
+li {
+  list-style-type: none;
+}
+.navbar {
+  display: inline-block;
+  width: 100%;
+}
+.navbar ul {
+  display: inline-block;
+  padding: 1% 0;
+  width: 100%;
+  margin-bottom: 0;
+  height: 40px;
+  color: #fff;
+}
+.navbar li {
+  float: left;
+  margin-right: 1em;
+}
+.navbar li a {
+  padding: 10px;
+  color: #fff;
+}
+.navbar li a.active {
+  border-bottom: 1px solid #fff;
+}
